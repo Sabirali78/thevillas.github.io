@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+.logo{
+    color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 40px;
+}
+.spn{
+    color: red;
+    text-overflow: hidden;
+}
+ul{
+    color: white;
+    list-style: none;
+    padding: 5%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: -10%;
+    margin-left: -3%;
+}
+li{
+    margin: 4%;
+}
+.login{
+    background-color: red;
+    position: absolute;
+    left: 80%;
+    top: 15%;
+}
+.reg{
+    width: 70px;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: -7px;
+    background-color: black;
+    padding: 7px;
+    text-align: center;
+    border-radius: 5px;
+}
+.log{
+    width: 70px;
+    color: white;
+    position: absolute;
+    background-color: black;
+    top: -7px;
+    padding: 7px;
+    left: -50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.helo{
+    margin-top: 2%;
+    margin-left: 10%;
+    color: white;
+    font-size: 50px;
+
+}
+.helo2{
+    color: white;
+    margin-left: 10%;
+    font-size: 50px;
+}
+.para{
+    color: white;
+    margin-left: 10%;
+    margin-top: 1%;
+    font-size: 20px;
+}
+.you{
+    color: white;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 1%;
+}
+.btn{
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.log:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.reg:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+}
